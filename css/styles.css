@@ -1,0 +1,65 @@
+body    {
+    padding-top: 100px;
+}
+
+.navbar a   {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar .container a img  {
+    height: 80px;
+    width: 80px;
+}
+
+.banner h1  {
+    font-size: 130px;
+    color: purple;
+}
+
+.banner p{
+    font-size: 30px;
+    font-family: "Lucida handwriting", "Times New Roman", Times;
+    margin-top: 40px; 
+}
+
+#button  {
+    position: relative;
+    top: 25px;
+    background-color: purple;
+}
+
+.dropdown-menu li .dropdown-item    {
+    text-align: center;
+}
+
+.dropdown-menu li .dropdown-item:hover {
+    transition: all 0.3s ease-in-out;
+    background-color: purple;
+}
+
+.card   {
+    height: 600px;
+    background-image: linear-gradient(to bottom right, #eddaf5, #7d538f);
+}
+
+#grad   {
+    background-image: radial-gradient(#a558c7 5%, #b36dd1 25%, #e0cae6 60%);
+}
+
+@media(min-width: 768px){
+    .news   {
+        width: 100%;
+    }
+}
+
+.titleAnim {
+    animation-name: myanim;
+    animation-duration: 3s;
+    position: relative;
+}
+
+@keyframes myanim   {
+    0%{opacity: 0.1; top: -100px;}
+    100%{opacity: 1.0; top: 0px;}
+}
