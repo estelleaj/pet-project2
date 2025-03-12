@@ -40,13 +40,61 @@
                         <a href="#prices" class="nav-link">Our Prices</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#contact" class="nav-link">Contact/Info</a>
+                        <a href="#contact" class="nav-link" data-bs-toggle="modal" data-bs-target="#registerModal">Contact/Info</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
     <!--navbar ends-->
+
+    <div class="modal fade" id="registerModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">For Enquiries & Complaints</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <p class="lead">Fill out this form and we'll get back to you</p>
+    
+              <div class="mb-3">
+                <label for="firstname" class="form-label">First Name:</label>
+                <input type="text" class="form-control" id="firstname" placeholder="Enter First Name" required>
+            <div class="error-msg"></div>  
+            </div>
+              
+              <div class="mb-3">
+                <label for="lastname" class="form-label">Last Name:</label>
+                <input type="text" class="form-control" id="lastname" placeholder="Enter Last Name" required>
+            <div class="error-msg"></div>  
+            </div>
+              
+              <div class="mb-3">
+                <label for="email" class="form-label">Email:</label>
+                <input type="text" class="form-control" id="email" placeholder="Enter e-mail" required>
+            <div class="error-msg"></div>  
+            </div>
+              
+              <div class="mb-3">
+                <label for="phone" class="form-label">Phone:</label>
+                <input type="text" class="form-control" id="phone" placeholder="Enter phone number" required>
+            <div class="error-msg"></div>  
+            </div>
+              
+              <div class="mb-3">
+                <label for="phone" class="form-label">Description:</label>
+                <textarea type="text" class="form-control" id="info" placeholder="Enter enquiries and complaints..." required></textarea>
+                <div class="error-msg"></div>  
+            </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <button type="submit" class="btn btn-primary">Save changes</button>
+            </div>
+          </div>
+        </div>
+      </div>
 
     <!--banner-->
     <div id="grad">
@@ -69,7 +117,7 @@
                             <img src="./images/woman1.webp" class="img-fluid rounded-circle">
                         </div>
                         <h4 class="fst-italic fw-bold py-3 ms-auto">"Welcome to Desire Glitz, <span
-                        class="text-warning">Home of fashion!!!</span><br> </h4>
+                        class="text-warning">Home of <span style="color: black;">fashion!!!</span></span><br> </h4>
                     </div>
                     
                 </div>
